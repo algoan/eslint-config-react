@@ -11,7 +11,7 @@ Algoan [ESLint](https://eslint.org) configuration shared for [React](https://rea
 First, install this module running:
 
 ```bash
-npm install @algoan/react-eslint-config --save-dev
+npm install @algoan/eslint-config-react --save-dev
 ```
 
 Then, create a `.eslintrc.json` file:
