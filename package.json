@@ -1,0 +1,60 @@
+{
+  "name": "@algoan/eslint-config-react",
+  "version": "1.0.0",
+  "description": "Algoan React ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algoan/eslint-config-react.git"
+  },
+  "keywords": [
+    "eslint",
+    "algoan",
+    "react",
+    "typescript",
+    "eslintconfig"
+  ],
+  "author": "Algoan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algoan/eslint-config-react/issues"
+  },
+  "homepage": "https://github.com/algoan/eslint-config-react#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "peerDependencies": {
+    "prettier": ">= 2",
+    "react": ">= 16.8",
+    "typescript": ">= 3"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^11.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "commitlint": "^11.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.0",
+    "semantic-release": "^17.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
