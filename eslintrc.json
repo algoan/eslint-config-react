@@ -19,7 +19,8 @@
       "warn",
       { "allowExpressions": true }
     ],
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "no-console": "warn"
   },
   "settings": {
     "react": {
