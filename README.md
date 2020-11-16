@@ -18,7 +18,7 @@ Then, create a `.eslintrc.json` file:
 
 ```json
 {
-  "extends": "@algoan/eslint-config"
+  "extends": "@algoan/eslint-config-react"
 }
 ```
 
