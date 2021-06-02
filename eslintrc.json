@@ -20,7 +20,8 @@
       { "allowExpressions": true }
     ],
     "react/prop-types": "off",
-    "no-console": "warn"
+    "no-console": "warn",
+    "react/react-in-jsx-scope": "off"
   },
   "settings": {
     "react": {
