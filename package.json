@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/algoan/eslint-config-react#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.5.0",
-    "@typescript-eslint/parser": "^4.5.0",
-    "eslint": "^7.11.0",
-    "eslint-config-prettier": "^6.13.0",
-    "eslint-plugin-react": "^7.21.5",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "peerDependencies": {
@@ -42,7 +42,8 @@
     "commitlint": "^11.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.0",
-    "semantic-release": "^17.2.1"
+    "semantic-release": "^17.2.1",
+    "typescript": "^4.3.2"
   },
   "config": {
     "commitizen": {
