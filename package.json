@@ -42,6 +42,7 @@
     "commitlint": "^11.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.0",
+    "prettier": "^2.3.0",
     "semantic-release": "^17.2.1",
     "typescript": "^4.3.2"
   },
@@ -57,5 +58,11 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 120,
+    "arrowParens": "always"
   }
 }
