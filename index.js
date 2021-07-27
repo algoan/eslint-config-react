@@ -19,6 +19,7 @@ module.exports = {
     'react/prop-types': 'off',
     'no-console': 'warn',
     'react/react-in-jsx-scope': 'off',
+    'react/jsx-pascal-case': [2, { allowNamespace: true }],
   },
   settings: {
     react: {
