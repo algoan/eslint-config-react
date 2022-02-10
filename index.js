@@ -20,6 +20,7 @@ module.exports = {
     'no-console': 'warn',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-pascal-case': [2, { allowNamespace: true }],
+    'no-duplicate-imports': 'error',
     '@typescript-eslint/naming-convention': [
       'error',
       {
