@@ -35,7 +35,8 @@ module.exports = {
         selector: 'parameter',
         // allow parameters with leading underscore
         leadingUnderscore: 'allow',
-        format: ['camelCase'],
+        // PascalCase for components, camelCase for everything else
+        format: ['camelCase', 'PascalCase'],
       },
       {
         selector: ['function'],
