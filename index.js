@@ -48,10 +48,24 @@ module.exports = {
         format: ['camelCase'],
       },
       {
+        selector: 'property',
+        leadingUnderscore: 'allowSingleOrDouble',
+        modifiers: ['requiresQuotes'],
+        // no validation for properties that require quotes (HTTP headers, HTML properties etc.)
+        format: null,
+      },
+      {
         selector: 'objectLiteralProperty',
         leadingUnderscore: 'allowSingleOrDouble',
         // PascalCase for style object properties, camelCase for everything else
         format: ['camelCase', 'PascalCase'],
+      },
+      {
+        selector: 'objectLiteralProperty',
+        leadingUnderscore: 'allowSingleOrDouble',
+        modifiers: ['requiresQuotes'],
+        // no validation for object properties that require quotes (HTTP headers, HTML properties etc.)
+        format: null,
       },
       {
         selector: 'enumMember',
