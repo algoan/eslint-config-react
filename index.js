@@ -79,6 +79,24 @@ module.exports = {
       },
     ],
   },
+  overrides: [
+    {
+      files: [
+        '**/*.test.ts',
+        '**/*.spec.ts',
+        '**/*.test.tsx',
+        '**/*.spec.tsx',
+        '**/*.cy.ts',
+        '**/*.cy.tsx',
+      ],
+      plugins: ['jest'],
+      rules: {
+        'jest/no-commented-out-tests': 'warn',
+        'jest/no-focused-tests': 'error',
+        'jest/no-identical-title': 'error',
+      },
+    },
+  ],
   settings: {
     react: {
       version: 'detect',
