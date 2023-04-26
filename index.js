@@ -45,7 +45,7 @@ module.exports = {
       {
         selector: 'property',
         leadingUnderscore: 'allowSingleOrDouble',
-        format: ['camelCase'],
+        format: ['camelCase', 'snake_case']
       },
       {
         selector: 'property',
