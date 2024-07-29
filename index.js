@@ -17,6 +17,9 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/explicit-function-return-type': ['warn', { allowExpressions: true }],
+    '@typescript-eslint/consistent-type-definitions': 'off',
+    '@typescript-eslint/consistent-indexed-object-style': 'off',
+    '@typescript-eslint/array-type': ['warn', { default: 'array-simple' }],
     'react/prop-types': 'off',
     'no-console': 'warn',
     'react/react-in-jsx-scope': 'off',
