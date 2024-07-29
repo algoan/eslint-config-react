@@ -24,19 +24,19 @@
   },
   "homepage": "https://github.com/algoan/eslint-config-react#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.13.2",
-    "@typescript-eslint/parser": "^6.13.2",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-jest": "^27.6.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-jest": "^28.6.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2"
   },
   "peerDependencies": {
     "eslint": ">= 8",
     "prettier": ">=3",
     "react": ">=18",
-    "typescript": ">= 4.5"
+    "typescript": ">= 4.7"
   },
   "devDependencies": {
     "@amanda-mitchell/semantic-release-npm-multiple": "^3.9.0",
@@ -44,11 +44,11 @@
     "@semantic-release/git": "^10.0.1",
     "commitlint": "^17.7.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.8.0",
+    "eslint": "^8.57.0",
     "husky": "^8.0.3",
-    "prettier": "^3.0.3",
+    "prettier": "^3.3.3",
     "semantic-release": "^19.0.5",
-    "typescript": "^4.8.4"
+    "typescript": "^5.5.4"
   },
   "config": {
     "commitizen": {
