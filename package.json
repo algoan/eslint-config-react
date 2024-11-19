@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/algoan/eslint-config-react#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.17.0",
-    "@typescript-eslint/parser": "^7.17.0",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-jest": "^28.6.0",
+    "eslint-plugin-jest": "^28.9.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-react": "^7.35.0",
-    "eslint-plugin-react-hooks": "^4.6.2"
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0"
   },
   "peerDependencies": {
     "eslint": ">= 8",
