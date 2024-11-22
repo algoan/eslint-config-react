@@ -1,6 +1,6 @@
 {
   "name": "@algoan/eslint-config-react",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "Algoan React ESLint configuration",
   "main": "index.js",
   "scripts": {
